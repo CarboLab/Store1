@@ -59,6 +59,14 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 20px;
     color: #10161A;
 }
+.rounded-circle {
+    border-radius: 50% !important;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
 
 h1 {
     font-size: 54px;
