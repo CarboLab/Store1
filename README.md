@@ -1,2 +1,5 @@
 # Store1
-First Store. Landing Page
+First Store. Landing 
+
+//TODO :
+1) Email request (php)?
