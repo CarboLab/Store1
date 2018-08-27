@@ -43,6 +43,24 @@ Table OF Contents
 
 
 /* -- typography -- */
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    /* must be half of the width, minus scrollbar on the left (30px) */
+
+}
+.field {
+    top: 50%;
+    left: 30%;
+}
+.customModalText {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+}
 
 body {
     font-family: 'Varela Round', sans-serif;
