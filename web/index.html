@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-    <title>HTML Template</title>
+    <title>Off-Light</title>
 
     <!-- Google font -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CVarela+Round" rel="stylesheet">
@@ -15,6 +15,8 @@
     <!-- Bootstrap -->
     <link type="text/css" rel="stylesheet"
           href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/subscribe.css"/>
 
     <!-- Owl Carousel -->
     <link type="text/css" rel="stylesheet" href="css/owl.carousel.css"/>
@@ -162,6 +164,57 @@
 
         </div>
         <!-- /Row -->
+
+        <!--  Off-Light  -->
+        <div class="col-sm-4">
+            <div class="team">
+                <div class="team-img">
+                    <img id="off-light1" class="img-responsive" src="./img/chips/ff.jpg" alt="">
+                </div>
+                <div class="team-content">
+                    <h3>Proker chips</h3>
+                    <span>Prototype</span>
+                </div>
+            </div>
+        </div>
+        <!-- /Off-Light  -->
+
+        <!-- Off-Light -->
+        <div class="col-sm-4">
+            <div class="team">
+                <div class="team-img">
+                    <img id="off-light2" class="img-responsive" src="./img/chips/kk1.jpg" alt="">
+                </div>
+                <div class="team-content">
+                    <h3>Card</h3>
+                    <span>Prototype</span>
+                </div>
+            </div>
+        </div>
+        <!-- /Off-Light -->
+
+        <!-- Off-Light -->
+        <div class="col-sm-4">
+            <div class="team">
+                <div class="team-img">
+                    <img id="off-light3" class="img-responsive" src="./img/chips/Edited1.jpg" alt="">
+                </div>
+                <div class="team-content">
+                    <h3>Proker chips</h3>
+                    <span>Prototype</span>
+                </div>
+            </div>
+        </div>
+        <!-- /Off-Light -->
+
+        <!-- Toggle -->
+        <div align="center">
+            <input type="checkbox" data-toggle="toggle" data-onstyle="success" data-offstyle="danger"
+                   data-size="large" data-style="ios" data-on="On-Light" data-off="Off-Light" id="toggle-event">
+        </div>
+        <!-- /Toggle -->
+
+        <br>
         <br>
         <div class="container">
             <div class="row">
@@ -1013,7 +1066,6 @@
 
         </div>
         <!-- /Row -->
-
     </div>
     <!-- /Container -->
 
@@ -1059,7 +1111,8 @@
         </div>
         <div class="input-group field">
             <a href="#about">
-                <button type="submit" class="main-btn" onclick="JavaScript:subscribe()">
+                <button type="submit" class="main-btn" onclick="JavaScript:subscribe()"
+                >
                     Submit
                 </button>
                 <a>
@@ -1080,6 +1133,8 @@
         crossorigin="anonymous"></script>
 <script type="text/javascript" src="js/main.js"></script>
 <script type="text/javascript" src="js/custom.js"></script>
+<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+
 
 </body>
 
