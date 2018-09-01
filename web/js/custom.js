@@ -18,13 +18,25 @@ function subscribe() {
 $(function() {
     $('#toggle-event').change(function() {
         if($(this).prop('checked')) {
-            $('#off-light1').attr('src','./img/chips/ff2.jpg');
-            $('#off-light2').attr('src','./img/chips/kk2.jpg');
-            $('#off-light3').attr('src','./img/chips/Edited2.jpg');
+            $('#off-light1').fadeOut(300, function(){
+                $(this).attr('src','./img/chips/ff2.jpg').fadeIn(300);
+            });
+            $('#off-light2').fadeOut(300, function(){
+                $(this).attr('src','./img/chips/kk2.jpg').fadeIn(300);
+            });
+            $('#off-light3').fadeOut(300, function(){
+                $(this).attr('src','./img/chips/Edited2.jpg').fadeIn(300);
+            });
         } else {
-            $('#off-light1').attr('src','./img/chips/ff.jpg');
-            $('#off-light2').attr('src','./img/chips/kk1.jpg');
-            $('#off-light3').attr('src','./img/chips/Edited1.jpg');
+            $('#off-light1').fadeOut(300, function(){
+                $(this).attr('src','./img/chips/ff.jpg').fadeIn(300);
+            });
+            $('#off-light2').fadeOut(300, function(){
+                $(this).attr('src','./img/chips/kk1.jpg').fadeIn(300);
+            });
+            $('#off-light3').fadeOut(300, function(){
+                $(this).attr('src','./img/chips/Edited1.jpg').fadeIn(300);
+            });
         }
     })
 })
