@@ -1,9 +1,9 @@
 <?php
-$connection = mysqli_connect('localhost', 'rootAdmin', 'rootAdmin', 'dbase');
+$connection = mysqli_connect('localhost', 'millbelu_store1', 'admin', 'millbelu_subscribe');
 if ($_POST['email']) {
     $email = $_POST['email'];
 
-    $q = "INSERT INTO user (email) VALUES ('$email')";
+    $q = "INSERT INTO subscribe (email) VALUES ('$email')";
 
     $query = mysqli_query($connection, $q);
 
