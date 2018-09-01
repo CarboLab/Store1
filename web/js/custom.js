@@ -19,23 +19,23 @@ $(function() {
     $('#toggle-event').change(function() {
         if($(this).prop('checked')) {
             $('#off-light1').fadeOut(300, function(){
-                $(this).attr('src','./img/chips/ff2.jpg').fadeIn(300);
+                $(this).attr('src','web/img/chips/ff2.jpg').fadeIn(300);
             });
             $('#off-light2').fadeOut(300, function(){
-                $(this).attr('src','./img/chips/kk2.jpg').fadeIn(300);
+                $(this).attr('src','web/img/chips/kk2.jpg').fadeIn(300);
             });
             $('#off-light3').fadeOut(300, function(){
-                $(this).attr('src','./img/chips/Edited2.jpg').fadeIn(300);
+                $(this).attr('src','web/img/chips/Edited2.jpg').fadeIn(300);
             });
         } else {
             $('#off-light1').fadeOut(300, function(){
-                $(this).attr('src','./img/chips/ff.jpg').fadeIn(300);
+                $(this).attr('src','web/img/chips/ff.jpg').fadeIn(300);
             });
             $('#off-light2').fadeOut(300, function(){
-                $(this).attr('src','./img/chips/kk1.jpg').fadeIn(300);
+                $(this).attr('src','web/img/chips/kk1.jpg').fadeIn(300);
             });
             $('#off-light3').fadeOut(300, function(){
-                $(this).attr('src','./img/chips/Edited1.jpg').fadeIn(300);
+                $(this).attr('src','web/img/chips/Edited1.jpg').fadeIn(300);
             });
         }
     })
